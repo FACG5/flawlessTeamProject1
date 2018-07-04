@@ -1,5 +1,5 @@
 * {
-    
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +14,7 @@
 }
 
 .M{
-   margin:  10px; 
+   margin:  10px;
    display: inline-block;
 }
 .fa:hover {
@@ -23,7 +23,7 @@
 .fa {
   padding: 5px;
   font-size: 10px;
-  width: 10px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -45,14 +45,21 @@ h1{font-family:"Century Gothic","Lucida Grande",Arial,sans-serif;font-size:60px;
 h2{color: #FFF;font-family:"Century Gothic";font-size:15px;color:#ededed;margin:15px;}
 h3{margin : 7px;color: #191919;font-family:"Century Gothic";font-size:10px;}
 h4 { text-align: center; color: #111; font-family: 'Helvetica Neue', inherit; font-size:17px; font-weight: bold;
-color: white; }
+color: black; }
+.about-h4{
+font-family: inherit;
+font-size: 17px;
+color: white;
+
+
+}
 .social{
     margin-left: 40px;
 }
 h5{
-        font-family:'Helvetica Neue', sans-serif; 
+        font-family:'Helvetica Neue', sans-serif;
  color:rgb(109, 104, 99);
- font-variant: small-caps; font-size:20px; 
+ font-variant: small-caps; font-size:20px;
  font-weight: bold;
 
 
@@ -71,7 +78,7 @@ margin-left: 20px;
 }
 
 footer {
-   
+
 position: fixed;
 
 
@@ -82,10 +89,10 @@ position: fixed;
        bottom: 0;
         color: black;
         width: 100%;
-    
+
 }
 
-.foot{ 
+.foot{
 background-color: rgb(0, 51, 34)
 ;
 position: fixed;
@@ -105,8 +112,8 @@ color: white;
 .menu{
 position: fixed;
 top:75px;
-left:250px; 
- 
+left:250px;
+
 }
 .logo{
 position: fixed;
@@ -127,49 +134,50 @@ position :fixed;
 border-radius: 15px 30px 30px;
 background-color: rgb(0, 51, 34)
 ;
-left: 150px;
-top :250px;
+left: 200px;
+top :260px;
 width: 700px;
-height: 150px;
+height: 120px;
+padding-top: 10px;
 }
 
 
-  
+
   .container {
       margin-top: -85px;
       margin-left: -50px;
       /* background-color: #f2f2f2; */
       padding: 20px;
   }
-  
+
   /* .box1 {
       display: flex;
       justify-content: center;
       margin-top: 10%;
       }
    */
-  
+
   .textName {
-      width: 100%; 
+      width: 100%;
       padding: 12px;
-      border: 1px solid #ccc; 
-      border-radius: 4px;  
-      margin-top: 6px; 
-      margin-bottom: 16px; 
-      
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-top: 6px;
+      margin-bottom: 16px;
+
   }
-  
-  
+
+
   .textEmail {
-      width: 100%; 
+      width: 100%;
       padding: 12px;
-      border: 1px solid #ccc; 
-      border-radius: 4px;  
-      margin-top: 6px; 
-      margin-bottom: 16px; 
-      
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-top: 6px;
+      margin-bottom: 16px;
+
   }
-  
+
   .submit1 {
       background-color: rgb(29, 63, 212);
       color: white;
@@ -180,21 +188,20 @@ height: 150px;
       margin: 0 auto;
       display: block;
   }
-  
-  
+
+
   .submit1:hover {
       background-color: #061381;
   }
-  
-  
+
+
   textarea {
       height:200px;
-      width: 100%; 
+      width: 100%;
       padding: 12px;
-      border: 1px solid #ccc; 
-      border-radius: 4px;  
-      margin-top: 6px; 
-      margin-bottom: 16px; 
-      
-  }
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-top: 6px;
+      margin-bottom: 16px;
 
+  }
