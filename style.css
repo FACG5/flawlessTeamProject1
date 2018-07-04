@@ -1,3 +1,10 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .rounded{
 
     border-radius: 50%;
@@ -44,10 +51,10 @@ color: white; }
 }
 h5{
         font-family:'Helvetica Neue', sans-serif; 
- color:#4E443C;
+ color:rgb(109, 104, 99);
  font-variant: small-caps; font-size:20px; 
  font-weight: bold;
- text-decoration: underline;
+
 
 
 
@@ -62,9 +69,12 @@ cursor: pointer;
 margin-left: 20px;
 
 }
+
 footer {
    
 position: fixed;
+
+
         background-color: rgba(170, 170, 170, 0.541);
         text-align: center;
        margin-bottom: 0px;
@@ -74,6 +84,7 @@ position: fixed;
         width: 100%;
     
 }
+
 .foot{ 
 background-color: rgb(0, 51, 34)
 ;
@@ -86,8 +97,11 @@ padding-bottom: 30px;
 padding-top: 30px;
 font-family: inherit;
 color: white;
-;
+
 }
+
+
+
 .menu{
 position: fixed;
 top:75px;
@@ -118,4 +132,69 @@ top :250px;
 width: 700px;
 height: 150px;
 }
+
+
+  
+  .container {
+      margin-top: -85px;
+      margin-left: -50px;
+      /* background-color: #f2f2f2; */
+      padding: 20px;
+  }
+  
+  /* .box1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 10%;
+      }
+   */
+  
+  .textName {
+      width: 100%; 
+      padding: 12px;
+      border: 1px solid #ccc; 
+      border-radius: 4px;  
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      
+  }
+  
+  
+  .textEmail {
+      width: 100%; 
+      padding: 12px;
+      border: 1px solid #ccc; 
+      border-radius: 4px;  
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      
+  }
+  
+  .submit1 {
+      background-color: rgb(29, 63, 212);
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 0 auto;
+      display: block;
+  }
+  
+  
+  .submit1:hover {
+      background-color: #061381;
+  }
+  
+  
+  textarea {
+      height:200px;
+      width: 100%; 
+      padding: 12px;
+      border: 1px solid #ccc; 
+      border-radius: 4px;  
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      
+  }
 
