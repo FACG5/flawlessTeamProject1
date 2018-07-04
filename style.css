@@ -1,3 +1,10 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .rounded{
 
     border-radius: 50%;
@@ -16,7 +23,7 @@
 .fa {
   padding: 5px;
   font-size: 10px;
-  width: 10px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -37,9 +44,17 @@
 h1{font-family:"Century Gothic","Lucida Grande",Arial,sans-serif;font-size:60px;color:#5e5b5b;}
 h2{color: #FFF;font-family:"Century Gothic";font-size:15px;color:#ededed;margin:15px;}
 h3{margin : 7px;color: #191919;font-family:"Century Gothic";font-size:10px;}
-h4 { text-align: center; color: #111; font-family: 'Helvetica Neue', sans-serif; font-size:15px; font-weight: bold; }
+h4 { text-align: center; color: rgb(24, 23, 22); font-family:'Helvetica Neue', sans-serif;  font-size:17px; font-weight: bold;
+ }
 .social{
     margin-left: 40px;
+}
+h6{
+    font-family:'Helvetica Neue', sans-serif; 
+    color:rgb(233, 229, 224);
+    font-variant: small-caps; font-size:15px; 
+    padding: 15px;
+
 }
 h5{
         font-family:'Helvetica Neue', sans-serif; 
@@ -55,55 +70,125 @@ h5{
 
 li {
     display: block;
-    color: black;
+ 
 float:left;
 cursor: pointer;
 margin-left: 20px;
 
 }
 
-footer {
-   
+
+footer{ 
+    background-color: rgb(209, 202, 202);
+padding: 20px;
 position: fixed;
+bottom:0;
+width:100%;
+    text-align: center;
+    font-family: inherit;
+    color: black;
 
-
-        background-color: rgba(170, 170, 170, 0.541);
-        text-align: center;
-       margin-bottom: 0px;
-       left: 0;
-       bottom: 0;
-        color: black;
-        width: 100%;
-    
 }
 
+
+
 .menu{
-position: fixed;
-top:75px;
-left:250px; 
+
+
+
  
 }
 .logo{
-position: fixed;
-top:30px;
-left:50px;
+}
+ul{
+margin-top:-120px;
+    margin-left: 200px;
+}
+body{
+
+    background-image: url("img/bg.jpg") ;
 
 }
 .box{
 
-    position:fixed;
-    top:200px;
-    left:300px;
-    display: none;
+margin-top:  120px;
+margin-left:260px;
+width:80%;
+display: none;
 opacity: 0;
 }
 .AboutUs{
-position :fixed;
-border-radius: 15px 50px 30px;
-background-color: #dbd0d0;
-left: 150px;
-top :250px;
-width: 700px;
-height: 200px;
 
+border-radius: 15px 30px 30px;
+background-color: rgb(141, 132, 132)
+;
+margin: 10px;
+width: 500px;
+height: 200px;
 }
+
+
+  
+  .container {
+margin-top:-180px;
+margin-left:-100px;
+width:50%;
+  }
+  
+  /* .box1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 10%;
+      }
+   */
+  
+  .textName {
+      width: 100%; 
+      padding: 12px;
+      border: 1px solid #ccc; 
+      border-radius: 4px;  
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      
+  }
+  
+  
+  .textEmail {
+      width: 100%; 
+      padding: 12px;
+      border: 1px solid #ccc; 
+      border-radius: 4px;  
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      
+  }
+  
+  .submit1 {
+      background-color: rgb(29, 63, 212);
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      /* margin: 0 auto; */
+float: right;  
+    display: block;
+  }
+  
+  
+  .submit1:hover {
+      background-color: #061381;
+  }
+  
+  
+  textarea {
+      height:200px;
+      width: 100%; 
+      padding: 12px;
+      border: 1px solid #ccc; 
+      border-radius: 4px;  
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      
+  }
+
