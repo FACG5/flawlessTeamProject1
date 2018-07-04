@@ -1,0 +1,105 @@
+.rounded{
+
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+
+}
+
+.M{
+   margin:  10px; 
+   display: inline-block;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-github{
+  background: #000000;
+  color: white;
+}
+.fa-instagram{
+  background: #943939;
+  color: white;
+}
+h1{font-family:"Century Gothic","Lucida Grande",Arial,sans-serif;font-size:60px;color:#5e5b5b;}
+h2{color: #FFF;font-family:"Century Gothic";font-size:15px;color:#ededed;margin:15px;}
+h3{margin : 7px;color: #191919;font-family:"Century Gothic";font-size:10px;}
+h4 { text-align: center; color: #111; font-family: 'Helvetica Neue', sans-serif; font-size:15px; font-weight: bold; }
+.social{
+    margin-left: 40px;
+}
+h5{
+        font-family:'Helvetica Neue', sans-serif; 
+ color:#4E443C;
+ font-variant: small-caps; font-size:20px; 
+ font-weight: bold;
+ text-decoration: underline;
+
+
+
+}
+
+
+li {
+    display: block;
+    color: black;
+float:left;
+cursor: pointer;
+margin-left: 20px;
+
+}
+footer {
+   
+position: fixed;
+        background-color: rgba(170, 170, 170, 0.541);
+        text-align: center;
+       margin-bottom: 0px;
+       left: 0;
+       bottom: 0;
+        color: black;
+        width: 100%;
+    
+}
+.menu{
+position: fixed;
+top:75px;
+left:250px; 
+ 
+}
+.logo{
+position: fixed;
+top:30px;
+left:50px;
+
+}
+.box{
+
+    position:fixed;
+    top:200px;
+    left:300px;
+    display: none;
+opacity: 0;
+}
+.AboutUs{
+position :fixed;
+border-radius: 15px 50px 30px;
+background-color: #dbd0d0;
+left: 150px;
+top :250px;
+width: 700px;
+height: 200px;
+
+}
