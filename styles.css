@@ -1,0 +1,13 @@
+.foot {background-color: rgb(191, 191, 191)
+;
+position: fixed;
+left:0;
+bottom:0;
+width: 100%;
+text-align: center;
+padding-bottom: 30px;
+padding-top: 30px;
+font-family: inherit;
+color: white;
+;
+}
