@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Flawless</title>
+        <title>Flawless Team | Welcome</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,9 +17,11 @@
 
          <div class="menu"> 
                 <ul>
-                    <li  class = "link" onclick="Open('Team')" id="defaultOpen" ><h5>Team</h5></li>
-                    <li  class = "link" onclick="Open('AboutUs')" ><h5>About Us</h5></li>
-                    <li  class = "link" onclick="Open('Education')"><h5>Contact Us</h5></li>
+
+                    <li  onclick="Open('Team')" id="defaultOpen" ><h5>Team</h5></li>
+                    <li onclick="Open('AboutUs')" ><h5>About Us</h5></li>
+                    <li onclick="Open('contactUs')"><h5>Contact Us</h5></li>
+
         
                 </ul>
         </div>
@@ -90,6 +92,28 @@
                 </div>
    
           </div> 
+
+          <div class= "box" id="contactUs">
+                <div class="container">
+                        <form>
+                      
+                          <label for="name">Name</label>
+                          <input class ="textName" type="text" id="name" name="name" placeholder="Your name..">   
+                      
+                          <label for="email">Email</label>
+                          <input class ="textEmail" type="email" id="email" name="email" placeholder="Your Email..">
+                          
+                          <label for="message">Message</label>
+                          <br>
+                          <textarea id="message" name="message" placeholder="Your Message !"></textarea>
+                          <br>
+                          <input class ="submit1" type="submit" value="Submit">
+                          
+                        </form>
+                      </div>
+                    </div>
+
+
           <footer>
                 <h3>fff</h3>
                         </footer>
