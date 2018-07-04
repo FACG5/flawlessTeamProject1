@@ -50,10 +50,10 @@ h4 { text-align: center; color: #111; font-family: 'Helvetica Neue', sans-serif;
 }
 h5{
         font-family:'Helvetica Neue', sans-serif; 
- color:#4E443C;
+ color:rgb(109, 104, 99);
  font-variant: small-caps; font-size:20px; 
  font-weight: bold;
- text-decoration: underline;
+
 
 
 
@@ -68,9 +68,12 @@ cursor: pointer;
 margin-left: 20px;
 
 }
+
 footer {
    
 position: fixed;
+
+
         background-color: rgba(170, 170, 170, 0.541);
         text-align: center;
        margin-bottom: 0px;
@@ -80,6 +83,7 @@ position: fixed;
         width: 100%;
     
 }
+
 .menu{
 position: fixed;
 top:75px;
