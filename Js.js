@@ -2,7 +2,7 @@
 
 document.getElementById("defaultOpen").click(); 
 
-function Open( Name) {
+function Open(Name) {
     
     var i, box, tablinks;
     box = document.getElementsByClassName("box");
